@@ -11,7 +11,7 @@ public interface CustomerService {
 
     Iterable<Customer> findAll();
 
-    Customer findById();
+    Customer findById(Long id);
 
     void insert(Customer customer);
 
