@@ -8,7 +8,7 @@ public class Address {
 
     @Id
     private String cep;
-    private String lougradouro;
+    private String logradouro;
     private String complemento;
     private String bairro;
     private String localidade;
@@ -22,8 +22,8 @@ public class Address {
         return cep;
     }
 
-    public String getLougradouro() {
-        return lougradouro;
+    public String getLogradouro() {
+        return logradouro;
     }
 
     public String getComplemento() {
@@ -62,8 +62,8 @@ public class Address {
         this.cep = cep;
     }
 
-    public void setLougradouro(String lougradouro) {
-        this.lougradouro = lougradouro;
+    public void setLogradouro(String lougradouro) {
+        this.logradouro = lougradouro;
     }
 
     public void setComplemento(String complemento) {
