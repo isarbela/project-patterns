@@ -15,7 +15,7 @@ public class Address {
     private String uf;
     private String ibge;
     private String gia;
-    private String dd;
+    private String ddd;
     private String siafi;
 
     public String getCep() {
@@ -50,8 +50,8 @@ public class Address {
         return gia;
     }
 
-    public String getDd() {
-        return dd;
+    public String getDdd() {
+        return ddd;
     }
 
     public String getSiafi() {
@@ -90,8 +90,8 @@ public class Address {
         this.gia = gia;
     }
 
-    public void setDd(String dd) {
-        this.dd = dd;
+    public void setDdd(String dd) {
+        this.ddd = dd;
     }
 
     public void setSiafi(String siafi) {
